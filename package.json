@@ -1,0 +1,30 @@
+{
+  "name": "Procul",
+  "version": "1.0.0",
+  "description": "Way to control computers and servers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "npm install express socket.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannerwh/Procul.git"
+  },
+  "keywords": [
+    "computers"
+  ],
+  "author": "Tanner Helton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tannerwh/Procul/issues"
+  },
+  "homepage": "https://github.com/tannerwh/Procul#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
