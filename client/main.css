@@ -1,0 +1,16 @@
+body {
+    background-color: #212121;
+}
+
+.bg-darker {
+    background-color: #2E2E2E;
+}
+
+.white {
+    color: white;
+}
+
+.space {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
