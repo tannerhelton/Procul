@@ -14,3 +14,16 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.webpage {
+    padding: 0px;
+    margin: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

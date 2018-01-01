@@ -10,13 +10,11 @@ const server = express()
     .listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
 var io = require('socket.io').listen(server);
-var brand = '';
-var productCode = '';
 
 io.sockets.on('connection', function (socket) {
     var clientIp = socket.request.connection.remoteAddress;
-    socket.on('runData', function (data) {
-        brand = data.band;
-        productCode = data.productCode;
+    socket.on('addComputer', function (data) {
+        socket.emit('otherComputerAdded', data);
+        console.log(data);
     });
 });
